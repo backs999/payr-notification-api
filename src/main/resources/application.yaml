@@ -4,11 +4,7 @@ spring:
 
 kafka:
   bootstrap-servers: 'broker:29092'
-  consumer:
-    group-id: payr-notification-api
 
 payr:
   kafka:
-    topic-notification: notification.new
-
-
+    topic-notification-new: notification.new
