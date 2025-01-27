@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: payr-notification-api
+
+kafka:
+  bootstrap-servers: 'broker:29092'
+  consumer:
+    group-id: payr-notification-api
+
+payr:
+  kafka:
+    topic-notification: notification.new
+
+
